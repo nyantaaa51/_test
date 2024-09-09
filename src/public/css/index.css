@@ -1,0 +1,102 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: right;
+}
+
+.form__group {
+    margin: 0 auto;
+    width: 70%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+}
+
+.form__group-title {
+    flex: 0 0 150px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.form__group-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+    width: 100%;
+}
+
+.h2 {
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.12px;
+    color: #8B7969;
+    text-align: center;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #8B7969;
+    width: 20%;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+.input[type="text"],
+.input[type="email"],
+.textarea,
+.select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.input[type="radio"] {
+    margin-right: 10px;
+    align-items: center;
+}
+
+.form__label--required {
+    color: red;
+}
+
+.gender-options {
+    display: flex;
+    gap: 20px;
+}
+
+.phone-group {
+    width: 50%;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #8B7969;
+    border: none;
+    color: white;
+    display: flex;
+}
